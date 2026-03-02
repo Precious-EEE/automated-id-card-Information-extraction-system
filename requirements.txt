@@ -1,0 +1,30 @@
+# ID Card Extraction Pipeline - Python Dependencies
+# Python 3.9+ required
+
+# OpenAI API Client
+openai>=1.0.0,<2.0.0
+
+# Image Processing
+opencv-python>=4.8.0,<5.0.0
+#pillow>=10.0.0,<11.0.0
+numpy>=1.24.0,<2.0.0ß
+
+# Data Validation and Parsing
+pydantic>=2.0.0,<3.0.0
+
+# Environment Variables (optional but recommended)
+python-dotenv>=1.0.0,<2.0.0
+
+# Testing Dependencies (optional, for development)
+pytest>=7.4.0,<8.0.0
+pytest-cov>=4.1.0,<5.0.0
+pytest-mock>=3.11.0,<4.0.0
+
+# Code Quality Tools (optional, for development)
+black>=23.7.0,<24.0.0
+flake8>=6.1.0,<7.0.0
+mypy>=1.5.0,<2.0.0
+
+# Additional Utilities
+requests>=2.31.0,<3.0.0
+tqdm>=4.66.0,<5.0.0
